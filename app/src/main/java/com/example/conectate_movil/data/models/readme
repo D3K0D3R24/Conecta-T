@@ -1,0 +1,8 @@
+en esta carpeta models se encontran los modelos de la base de datos
+
+es decir las mismas campos que se encuentran en la base de datos en la tabla
+
+cada data class es un modelo de la base de datos
+
+es decir crear un data class segun el nombre de la tabla de la base de datos y
+ahi se crean los atributos que seran las columnas de la tabla

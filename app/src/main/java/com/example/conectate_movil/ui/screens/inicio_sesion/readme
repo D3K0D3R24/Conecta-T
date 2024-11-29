@@ -1,0 +1,12 @@
+
+
+
+los view models son para que interectuen con vista y los datos que se ingresen en la vista se procesan en la view model
+
+en la view model se trabaja con el los datos o clases en el repositrio
+
+DataClientGlobal:
+    tiene com ofuncion guardar los datos obtenidos por la api
+    de ella podemos acceder en otros view models dado fucniona en forma globlal
+
+

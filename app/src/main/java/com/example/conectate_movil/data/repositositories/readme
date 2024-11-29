@@ -1,0 +1,24 @@
+
+
+
+
+en esta carpeta se crean por sugerencia los repositorios que interactuen
+con la solicitudes.
+
+estos repositorios se encargan de procesar las solicitudes y de estos repositorios se consumen en los viewModels.
+
+aqui se hacen lo siguinete:
+
+    - se hace la solicitud a la api
+
+    - se procesan las solicitudes
+
+    - se establecen todas las cominicaciones con los view models
+
+resumen:
+
+    -estos repositorios se encargan de procesar las solicitudes hacia la api.
+
+    -estos repositorios se consumen en los viewModels.
+
+    -actuan como mediadores entre la api y los viewModels.

@@ -1,0 +1,43 @@
+
+
+
+para ApiService
+
+    Nota: aqui solo estaremos agregando las solicitudes al servidor
+
+    aqui se establece comunicacion directa con el servidor que tiene nuestras apis
+
+
+    puntos importantes:
+
+        aqui se estaclecen que tipo de solicitudes se van a hacer
+
+        aqui se establecen que tipo de respuestas se van a dar
+
+
+    Solicitudes comunes a las apis son:
+
+        @GET : hace una peticion a la api para obtener informacion
+
+        @POST : hace una peticion a la api para enviar informacion
+
+        @PUT : hace una peticion a la api para actualizar informacion
+
+        @DELETE : hace una peticion a la api para eliminar informacion
+
+        @PATCH : hace una peticion a la api para actualizar informacion
+
+        @Query : especifica los filtros de la peticion. cuando
+
+        @body : especifica el cuerpo de la peticion
+
+
+
+para RetrofitIntance
+    ---------------------solo se agrega la url base de la api.------------------
+    solo se modifica la constante URL por la url de la api-res
+    ejemplo de lo que se debe modifica:
+
+        http://conectat247.atwebpages.com/apis/api-rest
+
+

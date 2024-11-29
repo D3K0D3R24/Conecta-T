@@ -1,0 +1,31 @@
+package com.example.conectate_movil.inicio_sesion.view_model
+
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
+
+class InicioSesionViewModel: ViewModel() {
+
+    //variable para ir almacendo los datos cuando el user Ingresa datos de idContrato
+    val _idContract = MutableLiveData<String>() //nuestro dato privado
+    //lo que llamamos a la vista para observar los datos al ingresar datos
+    val idContract: LiveData<String> = _idContract
+
+    //funcion para ir gurdando lo que el usuario  ingrese
+    fun onIdContractChange(idContrato:String){
+        _idContract.value = idContrato
+
+        //habilitamos el boton si cumple que tenga 8 caracteres
+        _isButtonEnable.value 
+    }
+
+    //funcion para corrobor si tiene 8 caracteres el numero de Contrato
+    fun isIdContractValid (idContrato: String):Boolean = idContrato.length == 8
+
+    //para habilitar el boton si cumple las ocho caracteres
+    val _isButtonEnable =MutableLiveData<Boolean>()
+    val isButtonEnable : LiveData<Boolean> = _isButtonEnable
+
+
+
+}
